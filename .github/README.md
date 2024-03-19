@@ -33,9 +33,8 @@ If the user could select two words, 'bow' and 'arrow,' for example:
             W O R D           |        K E Y W O R D              |                   S O U R C E                                                
          ____________         |      ______________________       |        ______________________________________
                               |                                   |                       
-              bow             |           lips                    |  Proverbs 4:22 "Something about how the bow compares to lips."
+              bow             |           tongue                  |  Proverbs 4:22 "Something about how the bow compares to the tongue."
              arrow                        lies                       Proverbs 9:19 "Like arrows, lies are shot from the bow."
-
 #
 
 In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was mannually gathered by the
