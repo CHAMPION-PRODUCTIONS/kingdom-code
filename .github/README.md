@@ -36,11 +36,11 @@ If the user could select two words, 'bow' and 'arrow,' for example:
              arrow                        lie                       Proverbs 9:19 "Like arrows, lies are shot from the bow."
 #
 
-In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was mannually gathered by the
+In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was manually gathered by the
 same logical process a program would use but a machine could cut out the margin of error that exists in Human misinterpretation, and gather the data at a much faster rate.
 
 #
 
-
+Thank you for your interest. Don't hesitate to reach out if you have any questions or concerns whatsoever.
 
  
