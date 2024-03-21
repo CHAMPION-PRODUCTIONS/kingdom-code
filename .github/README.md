@@ -24,8 +24,7 @@ For example, if the user enters the word, 'arm,' the return display would look s
 #
 The potential in this data is Earth-moving. Because at the core of this information is the encryption used for all of scripture. Plus, the
 information held within a matured database collection can solve all the ancient mysteries! As they were disgisuised within this symbolic tongue.
-This is a language the Roman Empire wanted to forget all about. At least where the commoner is concerned. But the value of this data can not be overstated.
-This devise works great for learning, research, and a literary tool.
+The value of this data can not be overstated. This devise works great for learning, research, and a literary tool.
 
 If the user could select two words, 'bow' and 'arrow,' for example:
 
@@ -33,17 +32,15 @@ If the user could select two words, 'bow' and 'arrow,' for example:
             W O R D           |        K E Y W O R D              |                   S O U R C E                                                
          ____________         |      ______________________       |        ______________________________________
                               |                                   |                       
-              bow             |           lips                    |  Proverbs 4:22 "Something about how the bow compares to lips."
-             arrow                        lies                       Proverbs 9:19 "Like arrows, lies are shot from the bow."
-
+              bow             |           tongue                  |  Proverbs 4:22 "Something about how the bow compares to the tongue."
+             arrow                        lie                       Proverbs 9:19 "Like arrows, lies are shot from the bow."
 #
 
-In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was mannually gathered by the
+In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was manually gathered by the
 same logical process a program would use but a machine could cut out the margin of error that exists in Human misinterpretation, and gather the data at a much faster rate.
-#
-These are keys of the Kingdom of Heaven. - From the REVEALER OF SECRETS
-#
-Buyer, be warned...
 
+#
+
+Thank you for your interest. Don't hesitate to reach out if you have any questions or concerns whatsoever.
 
  

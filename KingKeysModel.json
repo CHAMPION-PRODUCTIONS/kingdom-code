@@ -1,0 +1,295 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "KingKeyDb.skeystore",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "_id",
+                    "isActivated": true,
+                    "type": "objectId",
+                    "primaryKey": false,
+                    "GUID": "3f60bfc0-543d-4854-846d-2a9623c0fd2f",
+                    "required": true,
+                    "error": {},
+                    "childRelationships": [
+                        "bba0a840-3192-4183-b746-fd9244758dfd"
+                    ]
+                },
+                {
+                    "code": "",
+                    "name": "KEYWORD",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "71da51cb-111a-4908-9ddc-da24fb46a346",
+                    "required": false,
+                    "examples": [
+                        "fruit"
+                    ],
+                    "parentRelationship": "bba0a840-3192-4183-b746-fd9244758dfd",
+                    "foreignCollection": "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+                    "foreignField": [
+                        "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+                        "dd1d4fe0-f2ff-4a6c-9382-689f81bba20e"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "WORD",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "dd1d4fe0-f2ff-4a6c-9382-689f81bba20e",
+                    "required": false,
+                    "examples": [
+                        "result"
+                    ],
+                    "childRelationships": [
+                        "bba0a840-3192-4183-b746-fd9244758dfd"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "MEANING",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "primaryKey": false,
+                    "GUID": "cb53888a-a049-4697-9aec-ad0915b551df",
+                    "required": false,
+                    "examples": [
+                        "Isaiah 51:12\nI, even I, am he that comforteth you: who art thou, that thou shouldest be afraid of a man that shall die, and of the son of man which shall be made as grass;\nbriers, or, rebels\n2 Samuel 23:6,7\nBut the sons of Belial shall be all of them as thorns thrust away, because they cannot be taken with hands: …\nIsaiah 9:18\nFor wickedness burneth as the fire: it shall devour the briers and thorns, and shall kindle in the thickets of the forest, and they shall mount up like the lifting up of smoke.\nJeremiah 6:28\nThey are all grievous revolters, walking with slanders: they are brass and iron; they are all corrupters"
+                    ],
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "3b92cfd4-78f8-469c-9245-4e5225c4cb82",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+            "code": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "773041a5-3df8-4335-ae8c-095c0a52a410"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "KingKeyDb.skeystore",
+            "type": "bucket",
+            "collectionIds": [
+                "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "773041a5-3df8-4335-ae8c-095c0a52a410",
+            "code": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Two-Way Relationship",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+                    "dd1d4fe0-f2ff-4a6c-9382-689f81bba20e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+                    "71da51cb-111a-4908-9ddc-da24fb46a346"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "GUID": "bba0a840-3192-4183-b746-fd9244758dfd",
+            "parentCollection": "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+            "childCollection": "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+            "hackoladeStyles": {
+                "GUID": "038c4954-4647-4aab-b001-282d67dfb835",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1169.5,
+                        "y": 1051
+                    },
+                    {
+                        "x": 1169.5,
+                        "y": 1026
+                    },
+                    {
+                        "x": 1314,
+                        "y": 1026
+                    },
+                    {
+                        "x": 1314,
+                        "y": 1101.5
+                    },
+                    {
+                        "x": 1289,
+                        "y": 1101.5
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "right"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "773041a5-3df8-4335-ae8c-095c0a52a410": "KingKeyDb.skeystore",
+        "3f60bfc0-543d-4854-846d-2a9623c0fd2f": "_id",
+        "71da51cb-111a-4908-9ddc-da24fb46a346": "KEYWORD",
+        "dd1d4fe0-f2ff-4a6c-9382-689f81bba20e": "WORD",
+        "cb53888a-a049-4697-9aec-ad0915b551df": "MEANING",
+        "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03": "KingKeyDb.skeystore",
+        "bba0a840-3192-4183-b746-fd9244758dfd": "Two-Way Relationship",
+        "cae09661-7d51-46af-8294-27a69c7b6d3b": "NUM"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [
+            {
+                "name": "NUM",
+                "hackoladeMeta": {},
+                "isActivated": true,
+                "type": "numeric",
+                "properties": [],
+                "GUID": "cae09661-7d51-46af-8294-27a69c7b6d3b",
+                "definitionRefs": [],
+                "minimum": 1,
+                "id": "num",
+                "unit": "1",
+                "required": true,
+                "readOnly": true,
+                "deprecated": false,
+                "multipleOf": 1,
+                "error": {
+                    "examples": false,
+                    "exampleItems": [
+                        false
+                    ]
+                },
+                "examples": [
+                    1
+                ]
+            }
+        ],
+        "GUID": "7f1f7ebc-5436-47db-9264-df296ecbb1fd"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "4f225837-e6b9-46ca-a9b9-6c42df5b4704"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2f1708ee-f7e2-4d8f-88d7-3745362fea5a"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2024-03-15T16:45:38.205Z",
+    "GUID": "860466e6-628c-4610-b202-bdc41739e26b",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-03-15T17:03:25.673Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.3.3"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "68c99bc5-f73e-4e25-ba1a-44d7c0f93c03",
+                        "x": 1050,
+                        "y": 1051,
+                        "width": 239,
+                        "height": 101,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1010,
+                        "y": 986,
+                        "GUID": "773041a5-3df8-4335-ae8c-095c0a52a410"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
