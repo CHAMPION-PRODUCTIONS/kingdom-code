@@ -8,9 +8,7 @@ When the user clicks on the search box, they are presented with preloaded words.
 If a word search is successful, it returns the word searched for, a word universally symbolic to it, and a source that varifies the connection.
 For example, if the user enters the word, 'arm,' the return display would look similar to the one that follows:
 
-#
-
-
+# 
 
 
 
@@ -18,7 +16,7 @@ For example, if the user enters the word, 'arm,' the return display would look s
             W O R D           |        K E Y W O R D              |                   S O U R C E                                                
          ____________         |      ______________________       |        ______________________________________
                               |                                   |                       
-              arm             |           strength                |  Psalm 1:9 "Something about how the arm is strength." 
+              arm             |       might/ strength             |      Luke 1:51  "He has performed mighty deeds with His arm."
 #
 ### Project Outlook:
 #
@@ -32,8 +30,8 @@ If the user could select two words, 'bow' and 'arrow,' for example:
             W O R D           |        K E Y W O R D              |                   S O U R C E                                                
          ____________         |      ______________________       |        ______________________________________
                               |                                   |                       
-              bow             |           tongue                  |  Proverbs 4:22 "Something about how the bow compares to the tongue."
-             arrow                        lie                       Proverbs 9:19 "Like arrows, lies are shot from the bow."
+              bow             |       tongue/ speach              |     Jeremiah 9:3  "They make ready their tongue like a bow..."
+             arrow                        lie                           Jeremiah 9:3  "They make ready their tongue like a bow, to shoot lies (arrows)."
 #
 
 In addition, there is an excellent opportunity here for machine learning, as it is unique, as valuable. The current database was manually gathered by the
